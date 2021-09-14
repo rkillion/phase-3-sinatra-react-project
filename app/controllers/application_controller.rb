@@ -11,11 +11,11 @@ class ApplicationController < Sinatra::Base
   end
 
   def format_game(objects)
-    objects.to_json(include: :developer, include: {
+    objects.to_json(include: [:developer, {
       game_features: {
         include: :feature
       }
-    })
+    }])
   end
   # games should include the info for the developer and the features
 
