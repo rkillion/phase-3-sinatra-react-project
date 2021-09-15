@@ -1,9 +1,9 @@
 puts "🌱 Seeding spices..."
 #prevents creation of copies
-Feature.destroy_all
-Game.destroy_all
-Developer.destroy_all
-GameFeature.destroy_all
+# Feature.destroy_all
+# Game.destroy_all
+# Developer.destroy_all
+# GameFeature.destroy_all
 
 # Seed your database here
 
