@@ -15,3 +15,4 @@ use Rack::JSONBodyParser
 run ApplicationController
 use GamesController
 use DevelopersController
+use FeaturesController
